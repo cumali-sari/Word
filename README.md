@@ -1,4 +1,5 @@
-# :wave: The Basics of GitHub 
+
+# :wave: The Basics of GitHub [Cumali Sarı, 150230038]
 
 ## 🤓 Course overview and learning outcomes 
 
