@@ -5,38 +5,52 @@
     <head>
         <meta charset="utf-8">
         <title>Word Prediction Game</title>
+        <link rel="stylesheet" href="game.css">
     </head>
 
     <body>
         <div class="container">
             <h>Word Prediction Game</h>
+            
             <div class="card-container">
-                <img src="letterC.svg" alt="letterC" width="250px" id="letterC" class="letterC">
-                <img src="letterL.svg" alt="letterL" width="250px" id="letterL" class="letterL">
-                <img src="letterO.svg" alt="letterO" width="250px" id="letterO" class="letterO">
-                <img src="letterU.svg" alt="letterU" width="250px" id="letterU" class="letterU">
-                <img src="letterD.svg" alt="letterD" width="250px" id="letterD" class="letterD">
+                <div class="card" id="card-1"></div>
+                <img src="letterC.svg" alt="letterC" width="50px" id="letterC" class="letterC">
+
+                <div class="card" id="card-2"></div>
+                <img src="letterL.svg" alt="letterL" width="50px" id="letterL" class="letterL">
+
+                <div class="card" id="card-3"></div>
+                <img src="letterO.svg" alt="letterO" width="50px" id="letterO" class="letterO">
+
+                <div class="card" id="card-4"></div>
+                <img src="letterU.svg" alt="letterU" width="50px" id="letterU" class="letterU">
+
+                <div class="card" id="card-5"></div>
+                <img src="letterD.svg" alt="letterD" width="50px" id="letterD" class="letterD">
             </div>
-            <div>
-                <label for="prediction">Prediction:</label>
-                <input type="text" id="userInput">
-            </div>
+
+            <div class="play-container">
                 <div>
-                    <p>Score: <span id="score">0</span></p>
+                    <label for="prediction">Prediction:</label>
+                    <input type="text" id="userInput">
+                </div>
+                
+                <div>
+                    <button type="submit" id="submit-btn"> Submit </button>
+                </div>
+
+                <div>
+                    <button type="reset" id="reset-btn" > Reset the Game</button>
+                </div>
+
+                <div class="points">
+                    <p class="score">Score: <span id="score">0</span></p>
                     <p>Lives: <span id="lives">
-                        <img src="heart.jpg" alt="heart" width="20px">
-                        <img src="heart.jpg" alt="heart" width="20px">
-                        <img src="heart.jpg" alt="heart" width="20px">
+                        <img src="heart.jpg" alt="heart" width="28px" id="heart1">
+                        <img src="heart.jpg" alt="heart" width="28px" id="heart2">
+                        <img src="heart.jpg" alt="heart" width="28px" id="heart3">
                     </span></p>
                 </div>
-            </div>
-
-            <div>
-                <button type="submit" id="submit-btn"> Submit </button>
-            </div>
-
-            <div>
-                <button type="reset" id="restart-btn" class="hidden"> Reset the Game</button>
             </div>
         </div>
     </body>
