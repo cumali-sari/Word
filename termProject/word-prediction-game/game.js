@@ -10,7 +10,11 @@ const resetBtn = document.getElementById("reset-btn");
 let guess = userInput.value.toUpperCase();
 let score = 0;
 let lives = 3;
-
+let guessC = 0;
+let guessL = 0;
+let guessO = 0;
+let guessU = 0;
+let guessD = 0;
 
 function livesChecker() {
     if (lives === 3 ) {
@@ -40,6 +44,12 @@ function endGame() {
 function resetGame() {
     lives = 3;
     score = 0;
+    guessC = 0;
+    guessL = 0;
+    guessO = 0;
+    guessU = 0;
+    guessD = 0;
+
     for(let i = 0; i < 5; i++) {
         cardsElement[i].style.display = "inline-block";
         lettersElement[i].style.display = "none";
@@ -58,11 +68,7 @@ function resetGame() {
 
 submitBtn.addEventListener("click", () => {
 
-    let guessC = 0;
-    let guessL = 0;
-    let guessO = 0;
-    let guessU = 0;
-    let guessD = 0;
+
     let guess = userInput.value.toUpperCase();
     userInput.value = ""
 
