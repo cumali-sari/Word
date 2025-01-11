@@ -15,7 +15,7 @@ h {
 
 
 
-.card{
+.card-container div{
     display: inline-block;
     width: 80px;
     height: 80px;
@@ -50,17 +50,21 @@ p img{
    margin-right: 30px;
 }
 
+button{
+    margin-top: 10px;  
+}
+
 #submit-btn{
     width: 120px;
     height: 25px;
     color: white;
     background-color: rgb(246, 162, 5);
-    
 }
-button{
-    margin-top: 10px;
-    
+
+#reset-btn{
+    visibility: hidden;
 }
+
 
 
 .hidden{
