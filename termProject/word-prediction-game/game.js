@@ -1,6 +1,5 @@
 const userInput = document.getElementById("userInput");
 const scoreElement = document.getElementById("score");
-const livesElement = document.getElementById("lives");
 const lettersElement = document.querySelectorAll(".card-container img");
 const cardsElement = document.querySelectorAll(".card-container div")
 const heartsElement = document.querySelectorAll("p img")
@@ -36,7 +35,7 @@ function endGame() {
         alert("Congratulations! You won the game!");
     }
     else {
-        alert("You lost the game!");
+        alert("You lost the game.");
     }
 }
 

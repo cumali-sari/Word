@@ -13,7 +13,16 @@ h {
     font-size: 30px;
 }
 
+div label{
+    font-size: 16px;
+}
 
+#userInput{
+    width: 60px;
+    height: 25px;
+    border: 2px solid black;
+    font-size: medium;
+}
 
 .card-container div{
     display: inline-block;
@@ -21,7 +30,6 @@ h {
     height: 80px;
     margin: 10px;
     border: 2px solid black;
-    border-radius: 5px;
     background-color:  lightgray;
     
 }
@@ -57,16 +65,16 @@ button{
 #submit-btn{
     width: 120px;
     height: 25px;
-    color: white;
-    background-color: rgb(246, 162, 5);
+    color: black;
+    background-color: rgb(255, 111, 0);
 }
 
 #reset-btn{
     visibility: hidden;
+    background-color: red;
+    color: white;
+    font-size: 16px;
 }
 
 
 
-.hidden{
-    display: none;
-}
