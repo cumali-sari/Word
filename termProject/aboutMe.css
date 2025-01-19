@@ -1,7 +1,12 @@
 
 body {
-    
+    height:fit-content;
+    margin-left: 18px;
+    margin-top: 10px;
+    font-size: 17px;
+    font-family: Arial, sans-serif;
 }
+
 h {
     font-size: 30px;
 }
@@ -9,31 +14,23 @@ h {
 .container{
     display: flex;
     width: 50%;
-    height: 100px;
-    margin: 5px;
+    margin-top: -5px;
+    margin-bottom: 10px;
 }
 
 img {
     border-radius: 40%;
-    border-color: blue;
-}
-.navigation{
-    margin-top: 60px;
 }
 
-img {
-    margin-top: 10px;
-}
 
 button {
     background-color: black;
     color:aqua;
-    margin-top: -10px;
     height: 30px;
     font-size: 20px;
 }
 
 button:hover{
     background-color: blue;
-    color: blueviolet;
+    color: white;
 }
